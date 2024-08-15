@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra de Producto</title>
+    <!-- Enlace al archivo CSS de Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- Enlace al archivo CSS personalizado -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Menú de navegación para moverse entre las páginas -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">Inicio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html">Registro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="catalog.html">Catálogo</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contenedor principal para el contenido de la página -->
+    <div class="container mt-5">
+        <h1 class="text-center">Compra de Producto</h1>
+
+        <!-- Sección de detalles del producto -->
+        <div class="product-detail text-center">
+            <!-- Imagen del producto -->
+            <img src="img/producto1.jpg" alt="Producto 1" class="img-fluid mb-3">
+            <!-- Nombre del producto -->
+            <h2>Producto 1</h2>
+            <!-- Descripción del producto -->
+            <p>Descripción detallada del producto 1.</p>
+            <!-- Precio del producto -->
+            <p><strong>Precio:</strong> $100.00</p>
+        </div>
+        
+        <!-- Formulario para ingresar la información de compra -->
+        <form action="#" method="post">
+            <!-- Sección para la información de envío -->
+            <h3>Información de Envío</h3>
+
+            <!-- Campo para el nombre completo -->
+            <div class="form-group">
+                <label for="nombre">Nombre Completo:</label>
+                <input type="text" id="nombre" name="nombre" class="form-control" required>
+            </div>
+            
+            <!-- Campo para la dirección de envío -->
+            <div class="form-group">
+                <label for="direccion">Dirección de Envío:</label>
+                <input type="text" id="direccion" name="direccion" class="form-control" required>
+            </div>
+            
+            <!-- Campo para la ciudad -->
+            <div class="form-group">
+                <label for="ciudad">Ciudad:</label>
+                <input type="text" id="ciudad" name="ciudad" class="form-control" required>
+            </div>
+            
+            <!-- Campo para el correo electrónico -->
+            <div class="form-group">
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" class="form-control" required>
+            </div>
+            
+            <!-- Sección para la información de pago -->
+            <h3>Información de Pago</h3>
+
+            <!-- Campo para el número de tarjeta de crédito -->
+            <div class="form-group">
+                <label for="tarjeta">Número de Tarjeta:</label>
+                <input type="text" id="tarjeta" name="tarjeta" class="form-control" required>
+            </div>
+            
+            <!-- Campo para la fecha de expiración de la tarjeta -->
+            <div class="form-group">
+                <label for="expiracion">Fecha de Expiración:</label>
+                <input type="text" id="expiracion" name="expiracion" class="form-control" placeholder="MM/AA" required>
+            </div>
+            
+            <!-- Campo para el código de seguridad (CVV) de la tarjeta -->
+            <div class="form-group">
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" class="form-control" required>
+            </div>
+            
+            <!-- Botón para enviar el formulario y realizar la compra -->
+            <button type="submit" class="btn btn-primary">Realizar Compra</button>
+        </form>
+    </div>
+
+    <!-- Enlaces a los archivos JavaScript de Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

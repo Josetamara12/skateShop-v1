@@ -1,0 +1,1 @@
+Carpeta reservada para el scripts JavaScript, si lo necesitamos

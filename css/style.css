@@ -1,0 +1,124 @@
+/* Aqui estaran los estilos CSS */
+
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background: #fff;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Estilo para los encabezados h1 */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Estilo para los formularios */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo para las etiquetas de los formularios */
+label {
+    margin-top: 10px;
+    color: #555;
+}
+
+/* Estilo para los campos de entrada */
+input {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Estilo para los botones */
+button {
+    padding: 10px;
+    color: #fff;
+    background: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo para los botones al pasar el cursor */
+button:hover {
+    background: #555;
+}
+
+/* Estilo para cambiar el color de los enlaces de navegación al pasar el cursor */
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+/* Estilo para los productos */
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Estilo para las imágenes de los productos */
+.product img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Estilo para los encabezados h2 de los productos */
+.product h2 {
+    color: #333;
+}
+
+/* Estilo para los botones de los productos */
+.product button {
+    margin-top: 10px;
+}
+
+/* Estilo para los detalles de los productos */
+.product-detail {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo para las imágenes de los detalles de los productos */
+.product-detail img {
+    max-width: 50%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para los encabezados h3 dentro de los formularios */
+form h3 {
+    margin-top: 30px;
+    color: #333;
+}
+
+/* Estilo para los campos de entrada dentro de los formularios */
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
